@@ -15,22 +15,24 @@ button {
     color: #e5e7eb;
     border-radius: 8px;
     font-weight: 700;
-   padding: 5px 10px;
+   padding: 5px 30px;
    border: none;
 }
 .dark {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    height: 450px;
-    width: 100vw;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 400px;
+    width: auto;
     padding-left: 25%;
     gap: 100px;
 }
 .navbar {
     display: flex;
     padding-top: 15px;
+    flex-wrap: nowrap;
 
 }
 .navbar ul {
@@ -68,7 +70,6 @@ button {
 .awesome-written-content {
     display: flex;
     flex-direction: column;
-    
     gap: 10px;
    
 }
@@ -79,22 +80,33 @@ button {
 .boxes {
     display: flex;
     justify-content: center;
+    gap: 50px;
+    flex-wrap: nowrap;
+    
 }
 .blue-square {
     height: 150px;
     width: 150px;
-    border: 2px solid #3882f6;
+    border: 4px solid #3882f6;
     border-radius: 10px;
     background-color: transparent;
+    padding: 0px;
+    margin: 0px;
 }
-.boxes.box {
-    display: flex;
-    flex-direction: row;
-}
+
 .info {
     display: flex;
     justify-content: center;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+}
+.square-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+}
+.second {
+    height: 400px;
+    width: auto;
 }
