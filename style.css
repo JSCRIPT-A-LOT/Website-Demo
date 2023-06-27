@@ -110,3 +110,14 @@ button {
     height: 400px;
     width: auto;
 }
+.quote {
+    height: 400px;
+    width: auto;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+.author {
+    display: flex;
+    justify-content: flex-end;
+}
